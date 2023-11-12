@@ -11,7 +11,7 @@ import SwiftUI
 struct SunWaveApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SunWaveView(viewModel: SunWaveViewModel(startPoint: -Double.pi / 2, endPoint: Double.pi * 3/2, threshold: 0.7))
         }
     }
 }

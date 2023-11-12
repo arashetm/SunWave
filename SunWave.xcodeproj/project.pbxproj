@@ -8,18 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		5B01E45E2AFFE08600C4BD58 /* SunWaveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B01E45D2AFFE08600C4BD58 /* SunWaveApp.swift */; };
-		5B01E4602AFFE08600C4BD58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B01E45F2AFFE08600C4BD58 /* ContentView.swift */; };
+		5B01E4602AFFE08600C4BD58 /* SunWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B01E45F2AFFE08600C4BD58 /* SunWaveView.swift */; };
 		5B01E4622AFFE08700C4BD58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B01E4612AFFE08700C4BD58 /* Assets.xcassets */; };
 		5B01E4662AFFE08700C4BD58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B01E4652AFFE08700C4BD58 /* Preview Assets.xcassets */; };
+		5B48B8DF2B017F0000324583 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48B8DE2B017F0000324583 /* ChartView.swift */; };
+		5B48B8E12B017F3700324583 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48B8E02B017F3700324583 /* StartButton.swift */; };
+		5B48B8E32B017F5200324583 /* InfoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48B8E22B017F5200324583 /* InfoDetailView.swift */; };
+		5B48B8E52B017F8200324583 /* SunWaveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48B8E42B017F8200324583 /* SunWaveViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B01E45A2AFFE08600C4BD58 /* SunWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B01E45D2AFFE08600C4BD58 /* SunWaveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunWaveApp.swift; sourceTree = "<group>"; };
-		5B01E45F2AFFE08600C4BD58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B01E45F2AFFE08600C4BD58 /* SunWaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunWaveView.swift; sourceTree = "<group>"; };
 		5B01E4612AFFE08700C4BD58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B01E4632AFFE08700C4BD58 /* SunWave.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SunWave.entitlements; sourceTree = "<group>"; };
 		5B01E4652AFFE08700C4BD58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B48B8DE2B017F0000324583 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		5B48B8E02B017F3700324583 /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		5B48B8E22B017F5200324583 /* InfoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailView.swift; sourceTree = "<group>"; };
+		5B48B8E42B017F8200324583 /* SunWaveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunWaveViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,8 @@
 		5B01E45C2AFFE08600C4BD58 /* SunWave */ = {
 			isa = PBXGroup;
 			children = (
+				5B48B8DB2B017E9800324583 /* SunWave */,
 				5B01E45D2AFFE08600C4BD58 /* SunWaveApp.swift */,
-				5B01E45F2AFFE08600C4BD58 /* ContentView.swift */,
 				5B01E4612AFFE08700C4BD58 /* Assets.xcassets */,
 				5B01E4632AFFE08700C4BD58 /* SunWave.entitlements */,
 				5B01E4642AFFE08700C4BD58 /* Preview Content */,
@@ -67,6 +75,34 @@
 				5B01E4652AFFE08700C4BD58 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B48B8DB2B017E9800324583 /* SunWave */ = {
+			isa = PBXGroup;
+			children = (
+				5B01E45F2AFFE08600C4BD58 /* SunWaveView.swift */,
+				5B48B8DD2B017ECF00324583 /* SubViews */,
+				5B48B8DC2B017EC500324583 /* Model */,
+			);
+			path = SunWave;
+			sourceTree = "<group>";
+		};
+		5B48B8DC2B017EC500324583 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B48B8E42B017F8200324583 /* SunWaveViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B48B8DD2B017ECF00324583 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				5B48B8DE2B017F0000324583 /* ChartView.swift */,
+				5B48B8E02B017F3700324583 /* StartButton.swift */,
+				5B48B8E22B017F5200324583 /* InfoDetailView.swift */,
+			);
+			path = SubViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B01E4602AFFE08600C4BD58 /* ContentView.swift in Sources */,
+				5B48B8E32B017F5200324583 /* InfoDetailView.swift in Sources */,
+				5B01E4602AFFE08600C4BD58 /* SunWaveView.swift in Sources */,
+				5B48B8E52B017F8200324583 /* SunWaveViewModel.swift in Sources */,
 				5B01E45E2AFFE08600C4BD58 /* SunWaveApp.swift in Sources */,
+				5B48B8E12B017F3700324583 /* StartButton.swift in Sources */,
+				5B48B8DF2B017F0000324583 /* ChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SunWave/Preview Content\"";
+				DEVELOPMENT_TEAM = A2Z64G4DVA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -290,10 +331,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.arash.SunWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,6 +348,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SunWave/Preview Content\"";
+				DEVELOPMENT_TEAM = A2Z64G4DVA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -326,10 +369,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.arash.SunWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
