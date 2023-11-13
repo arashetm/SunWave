@@ -36,6 +36,6 @@ struct InfoDetailView: View {
                     .foregroundStyle(Color.white)
             }
         }
-        .environment(\.layoutDirection, imageSide == .left ? .rightToLeft : .leftToRight)
+        .environment(\.layoutDirection, imageSide == .left ? .leftToRight : .rightToLeft)
     }
 }
