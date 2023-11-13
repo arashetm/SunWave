@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// MARK: - Info Detail View
 struct InfoDetailView: View {
     var imageSystemName: String
     var imageSide: Side
@@ -36,4 +37,12 @@ struct InfoDetailView: View {
         }
         .environment(\.layoutDirection, imageSide == .left ? .leftToRight : .rightToLeft)
     }
+}
+
+// MARK: - Info Detail View Preview
+#Preview("Info Detail View") {
+    InfoDetailView(imageSystemName: "sunrise",
+                   imageSide: .right,
+                   title: "sunrise".capitalized,
+                   time: "8:10 am")
 }
