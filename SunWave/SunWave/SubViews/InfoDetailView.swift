@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct InfoDetailView: View {
-    @Environment(\.layoutDirection) var direction: LayoutDirection
-    
     var imageSystemName: String
     var imageSide: Side
     var title: String
