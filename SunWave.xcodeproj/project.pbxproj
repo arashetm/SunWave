@@ -15,6 +15,7 @@
 		5B48B8E12B017F3700324583 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48B8E02B017F3700324583 /* StartButton.swift */; };
 		5B48B8E32B017F5200324583 /* InfoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48B8E22B017F5200324583 /* InfoDetailView.swift */; };
 		5B48B8E52B017F8200324583 /* SunWaveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48B8E42B017F8200324583 /* SunWaveViewModel.swift */; };
+		911994772B02B17F0063D1DC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911994762B02B17F0063D1DC /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5B48B8E02B017F3700324583 /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
 		5B48B8E22B017F5200324583 /* InfoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailView.swift; sourceTree = "<group>"; };
 		5B48B8E42B017F8200324583 /* SunWaveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunWaveViewModel.swift; sourceTree = "<group>"; };
+		911994762B02B17F0063D1DC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				5B48B8DE2B017F0000324583 /* ChartView.swift */,
+				911994762B02B17F0063D1DC /* CardView.swift */,
 				5B48B8E02B017F3700324583 /* StartButton.swift */,
 				5B48B8E22B017F5200324583 /* InfoDetailView.swift */,
 			);
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				911994772B02B17F0063D1DC /* CardView.swift in Sources */,
 				5B48B8E32B017F5200324583 /* InfoDetailView.swift in Sources */,
 				5B01E4602AFFE08600C4BD58 /* SunWaveView.swift in Sources */,
 				5B48B8E52B017F8200324583 /* SunWaveViewModel.swift in Sources */,
